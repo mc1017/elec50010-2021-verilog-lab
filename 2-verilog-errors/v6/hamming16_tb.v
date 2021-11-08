@@ -10,7 +10,7 @@ module hamming16_tb();
     );
 
     integer i;
-    logic[3:0] count_ref;
+    logic[4:0] count_ref;
     initial begin
         $dumpfile("hamming16_tb.vcd");
         $dumpvars(0, hamming16_tb);
